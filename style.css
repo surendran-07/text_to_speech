@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3crect width='264.96' height='264.96' clip-path='url(%26quot%3b%23SvgjsClipPath1001%26quot%3b)' x='344.42' y='-122.94' fill='url(%26quot%3b%23SvgjsPattern1002%26quot%3b)' transform='rotate(67.82%2c 476.9%2c 9.54)'%3e%3c/rect%3e%3ccircle r='46.666666666666664' cx='273.67' cy='470.2' fill='%23e73635'%3e%3c/circle%3e%3crect width='95.19999999999999' height='95.19999999999999' clip-path='url(%26quot%3b%23SvgjsClipPath1003%26quot%3b)' x='1196.38' y='-26.54' fill='url(%26quot%3b%23SvgjsPattern1004%26quot%3b)' transform='rotate(202.95%2c 1243.98%2c 21.06)'%3e%3c/rect%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1005%26quot%3b)' x='739.65' y='216.99' fill='url(%26quot%3b%23SvgjsPattern1006%26quot%3b)' transform='rotate(26.23%2c 769.65%2c 246.99)'%3e%3c/rect%3e%3crect width='217.8' height='217.8' clip-path='url(%26quot%3b%23SvgjsClipPath1007%26quot%3b)' x='992.61' y='31.03' fill='url(%26quot%3b%23SvgjsPattern1008%26quot%3b)' transform='rotate(123.08%2c 1101.51%2c 139.93)'%3e%3c/rect%3e%3crect width='82.2' height='82.2' clip-path='url(%26quot%3b%23SvgjsClipPath1009%26quot%3b)' x='1246.1' y='53.9' fill='url(%26quot%3b%23SvgjsPattern1010%26quot%3b)' transform='rotate(115.6%2c 1287.2%2c 95)'%3e%3c/rect%3e%3cpath d='M1359.21 540.89 L1393.5900000000001 666.58L1299.7475249599254 680.3874750400747z' stroke='%23e73635' stroke-width='2.29' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3cpath d='M1245.76 508.68a5.6 5.6 0 1 0-3.22-10.73 5.6 5.6 0 1 0 3.22 10.73zM1241.16 493.35a5.6 5.6 0 1 0-3.22-10.72 5.6 5.6 0 1 0 3.22 10.72zM1236.57 478.03a5.6 5.6 0 1 0-3.22-10.73 5.6 5.6 0 1 0 3.22 10.73zM1231.97 462.7a5.6 5.6 0 1 0-3.22-10.72 5.6 5.6 0 1 0 3.22 10.72z' stroke='%23e73635' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3cpath d='M240.39 55.29L235.83 43.32 246.5 36.25 241.94 24.28 252.61 17.2 248.05 5.24 258.73-1.84' stroke='%23d3b714' stroke-width='2.61' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3crect width='332.12' height='332.12' clip-path='url(%26quot%3b%23SvgjsClipPath1011%26quot%3b)' x='527.49' y='-49.72' fill='url(%26quot%3b%23SvgjsPattern1012%26quot%3b)' transform='rotate(221.67%2c 693.55%2c 116.34)'%3e%3c/rect%3e%3crect width='292.6' height='292.6' clip-path='url(%26quot%3b%23SvgjsClipPath1013%26quot%3b)' x='1256.69' y='-115.72' fill='url(%26quot%3b%23SvgjsPattern1014%26quot%3b)' transform='rotate(35.42%2c 1402.99%2c 30.58)'%3e%3c/rect%3e%3cpath d='M918.02 543.11a5.6 5.6 0 1 0-1.64-11.08 5.6 5.6 0 1 0 1.64 11.08zM915.68 527.28a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08zM913.34 511.45a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08zM911.01 495.63a5.6 5.6 0 1 0-1.64-11.08 5.6 5.6 0 1 0 1.64 11.08zM938.52 572.43a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08zM936.18 556.6a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08zM933.85 540.77a5.6 5.6 0 1 0-1.64-11.08 5.6 5.6 0 1 0 1.64 11.08zM931.51 524.94a5.6 5.6 0 1 0-1.64-11.07 5.6 5.6 0 1 0 1.64 11.07zM959.02 601.75a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08zM956.69 585.92a5.6 5.6 0 1 0-1.64-11.08 5.6 5.6 0 1 0 1.64 11.08zM954.35 570.09a5.6 5.6 0 1 0-1.64-11.08 5.6 5.6 0 1 0 1.64 11.08zM952.01 554.26a5.6 5.6 0 1 0-1.63-11.08 5.6 5.6 0 1 0 1.63 11.08z' fill='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='8.28' height='8.28' patternUnits='userSpaceOnUse' id='SvgjsPattern1002'%3e%3cpath d='M0 8.28L4.14 0L8.28 8.28' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1001'%3e%3ccircle r='66.24' cx='476.9' cy='9.54'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='9.52' height='9.52' patternUnits='userSpaceOnUse' id='SvgjsPattern1004'%3e%3cpath d='M0 9.52L4.76 0L9.52 9.52' stroke='%23037b0b' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1003'%3e%3ccircle r='23.799999999999997' cx='1243.98' cy='21.06'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1006'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1.65'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1005'%3e%3ccircle r='15' cx='769.65' cy='246.99'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='217.8' height='7.26' patternUnits='userSpaceOnUse' id='SvgjsPattern1008'%3e%3crect width='217.8' height='3.63' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='217.8' height='3.63' x='0' y='3.63' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1007'%3e%3ccircle r='54.45' cx='1101.51' cy='139.93'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='8.22' height='8.22' patternUnits='userSpaceOnUse' id='SvgjsPattern1010'%3e%3cpath d='M0 8.22L4.11 0L8.22 8.22' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1009'%3e%3ccircle r='20.55' cx='1287.2' cy='95'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='332.12' height='7.22' patternUnits='userSpaceOnUse' id='SvgjsPattern1012'%3e%3crect width='332.12' height='3.61' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='332.12' height='3.61' x='0' y='3.61' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1011'%3e%3ccircle r='83.03' cx='693.55' cy='116.34'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.7' height='7.7' patternUnits='userSpaceOnUse' id='SvgjsPattern1014'%3e%3cpath d='M3.85 1L3.85 6.7M1 3.85L6.7 3.85' stroke='%23037b0b' fill='none' stroke-width='2.02'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1013'%3e%3ccircle r='73.15' cx='1402.99' cy='30.58'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+h1{
+    font-size: 20px;
+    color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 4px 10px black;
+}
+textarea{
+    margin: 30px 0;
+    height: 100px;
+    width: 300px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 6px 10px black;
+
+}
+button{
+    background-color: black;
+    color: white;
+    border:5px ;
+    padding:10px ;
+    cursor: pointer;
+
+}
+button:hover{
+    color: green;
+}
+
